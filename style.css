@@ -90,7 +90,7 @@ body {
 
 .fotos {
     display: grid;
-    grid-template-columns: 20% 30% 30%;
+    grid-template-columns: 20% 20% 20% 20%;
     background-color: #887158;
     margin: 5%;
 }
