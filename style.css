@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: #887158;
+}
+
+.pag-inicial {
+    color: white;
+    text-align: center;
+    margin: 5%;
+}
+
+.foto-rosto {
+    margin: 5% 5% 1% 5%;
+    width: 50%;
+    float: left;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px 0 black;
+}
+
+.inicio {
+    text-align: center;
+    font-size: 17px;
+    margin: 0 3% 0 3%;
+    padding: 15% 0 5% 0;
+}
+
+.frase {
+    text-align: center;
+    font-size: 23px;
+    padding: 3%;
+}
+
+.subtexto {
+    font-size: 15px;
+}
+
+.pais {
+    margin: 4% 0 0 0;
+    position: relative;
+    background: linear-gradient(#887158, #D1C7C1, #887158);
+}
+
+
+.onde-nasci2 {
+    position: absolute;
+    top: 70%;
+    margin: 0 0 0 2%;
+    width: 30%;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: #D1C7C1;
+    color: black;
+    text-align: center;
+    font-size: 80%;
+}
+
+.foto-1 {
+    position: relative;
+    left: 23%;
+    top: 90%;
+    z-index: 0;
+    width: 50%;
+}
+
+.foto-2 {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    z-index: 1;
+    width: 40%;
+}
+
+.maps {
+    position: absolute;
+    top: 10%;
+    margin: 0 0 0 3%;
+}
+
+
+
+
+
+
+
+.fotos {
+    display: grid;
+    grid-template-columns: 20% 30% 30%;
+    background-color: #887158;
+    margin: 5%;
+}
+
+.polaroid {
+    border-bottom: 30px solid white;
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    border-top: 10px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    float: left;
+}
+
+.container2 {
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding: 4%;
+    background: #1F1305;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 3%;
+}
+
+h2 {
+    margin: 3%;
+}
