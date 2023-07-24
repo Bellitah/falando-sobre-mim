@@ -6,11 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Website icon" type="png" href="img/foto-rosto.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>Bella</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 
 <body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"><img src="img/cardapio.png" class="icon"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Sites feitos por mim</li>
+                <li class="lista-menu__item">
+                    <a href="https://pacman-ebon.vercel.app/">pacman</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://robotica.vercel.app/">robotica escolar</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://nasa-tawny.vercel.app/">nasa</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://site-2-liart.vercel.app/">caçambas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
     <section class="pag-inicial">
         <div>
             <img src="img/foto-rosto.png" alt="foto de resto Bella" class="foto-rosto">
@@ -29,8 +54,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22190.628535203185!2d12.097911964522087!3d45.95470813576229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47791a2cb18bdf69%3A0xa0d98ab0b4273f14!2s31051%20Follina%2C%20Treviso%2C%20It%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1689549521078!5m2!1spt-BR!2sbr"
                 width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <img src="img/foto da italia.JPG" alt="foto da Italia" class="foto-1">
-            <img src="img/foto na italia.JPG" alt="foto na Italia" class="foto-2">
+            <img src="img/foto-juntas.png" alt="foto da Italia" class="foto-1">
             <p class="onde-nasci">Sou nascida e criada até meus 5 anos em uma pequena cidade do sul da Italia
                 chamada Follina. </p>
         </div>
@@ -38,39 +62,35 @@
     </section>
 
 
-    <section class="fotos">
-        <br>
-        <div class="container2">
-            <img class="polaroid" src="img/ft1.jpg">
-        </div>
-        <div class="container2">
-            <img class="polaroid" src="img/ft2.jpg">
-        </div>
-        <div class="container2">
-            <img class="polaroid" src="img/ft3.jpg">
-        </div>
-        <br>
-        <div class="container2">
-            <img class="polaroid" src="img/ft4.jpg">
-        </div>
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/ft1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft9.jpg" alt=""></div>
+            </div>
 
-        <div class="container2">
-            <img class="polaroid" src="img/ft5.jpg">
-        </div>
-        <div class="container2">
-            <img class="polaroid" src="img/ft6.jpg">
-        </div>
-        <br>
-        <div class="container2">
-            <img class="polaroid" src="img/ft7.jpg">
-        </div>
-        <div class="container2">
-            <img class="polaroid" src="img/ft8.jpg">
-        </div>
-        <div class="container2">
-            <img class="polaroid" src="img/ft9.jpg">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
     </section>
+
 
     <footer>
         <h1>Redes sociais e formas de contato</h1>
@@ -94,6 +114,20 @@
         <h3>isabellapereira0802@gmail.com</h3>
         <h3>Feito por Isabella Lopes Pereira</h3>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+            const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        
+        });
+    </script>
+    <script src="carrosse.js"></script>
 
 </body>
 
