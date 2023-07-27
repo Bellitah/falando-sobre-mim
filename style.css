@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-size: 16px;
 }
 
 body {
@@ -11,11 +12,9 @@ body {
     background: #8C7C68;
 }
 
-.pag-inicial {
-    color: white;
-    text-align: center;
-    margin: 0% 5% 5% 5%;
-}
+
+
+
 
 
 header {
@@ -76,15 +75,14 @@ header {
 
 
 
-
+.principal {
+    height: 50vh;
+    align-items: center;   
+    text-align: center; 
+}
 
 .foto-rosto {
-    margin: 0 5% 1% 5%;
-    width: 50%;
-    float: left;
-    border-radius: 100%;
-    box-shadow: 0 10px 10px 0 black;
-    max-width: 780px;
+    width: 90%;
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
 }
@@ -103,15 +101,18 @@ header {
     }
 }
 
-.inicio {
-    text-align: center;
+.container {
+    display: grid;
+    grid-template-columns: 60% 38%;
+    color: white;
+}
+
+h2 {
     font-size: 17px;
-    margin: 0 3% 0 3%;
-    padding: 8% 0 7% 0;
+
 }
 
 .frase {
-    text-align: center;
     font-size: 23px;
     padding: 3%;
 }
@@ -187,6 +188,23 @@ header {
 
 
 
+.container-caixa {
+    margin: 10%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container-texto {
+    border-radius: 30px 100px 30px 100px;
+    background-color: #000;
+    color: white;
+    padding: 5% 10%;
+    font-size: 1em;
+}
+
+
+
 
 
 
@@ -222,7 +240,6 @@ footer a {
 footer a :hover {
     margin-left: 40px;
     opacity: 1;
-    margin: 10px;
 }
 
 
@@ -230,21 +247,26 @@ footer a :hover {
 
 @media (min-width: 600px) {
     .foto-rosto {
-        margin: 0;
-        width: 40%;
+        width: 80%;
+        float: left;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        color: white;
     }
 
     .inicio {
-        font-size: 180%;
-        padding: 5% 0 0 5%;
+        font-size: 2em;
     }
 
     .frase {
-        font-size: 240%;
+        font-size: 4em;
     }
 
     .subtexto {
-        font-size: 120%;
+        font-size: 1em;
     }
 
 
@@ -276,6 +298,10 @@ footer a :hover {
 
 
 
+
+    .container-texto {
+        font-size: 2em;
+    }
 
 
 
