@@ -126,8 +126,7 @@ h2 {
 
 
 
-.pais {
-    margin: 4% 0 0 0;
+.pais {
     background: linear-gradient(#8C7C68, #BFB6AE, #8C7C68);
 }
 
@@ -153,16 +152,10 @@ h2 {
 }
 
 .foto-1 {
-    width: 40%;
-    padding: 2% 0 0 7%;
+    width: 60%;
 }
 
-.foto-2 {
-    position: absolute;
-    left: 40%;
-    top: 55%;
-    width: 30%;
-}
+
 
 
 
