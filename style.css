@@ -193,6 +193,57 @@ h2 {
 
 
 
+.musicas {
+    background-color: #000;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px 0 0 15px;
+    border: solid #24a969;
+    align-items: center;
+}
+
+.musicas a {
+    font-size: 50%;
+    color: #24a969;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.img-musica {
+    width: 40%;
+}
+
+.container-musica {
+    width: 94%;
+	padding: 18px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.container-musica li {
+    margin: 5px;
+	padding: 0 10% 0 0;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     padding: 4%;
@@ -287,6 +338,33 @@ footer a :hover {
     .container-texto {
         font-size: 2em;
     }
+
+
+
+
+
+
+    h2 {
+        font-size: 200%;
+    }
+
+    .musicas a {
+        font-size: 150%;
+    }
+
+    .img-musica {
+        width: 15%;
+    }
+
+    .container-musica li {
+        margin: 1em;
+    }
+
+    .container-musica li:hover {
+        border-color: #24a969;
+        transform: scale(1.2);
+    }
+
 
 
 
