@@ -77,7 +77,7 @@ header {
 
 .principal {
     margin:  0;
-    height: 40vh;
+    height: 30vh;
     align-items: center;   
     text-align: center; 
 }
@@ -273,8 +273,8 @@ h2 {
 .img-codigo {
     background-image: url('img/img-codigo.PNG');
     background-repeat: no-repeat;
+    background-size: cover;
 
-    height: 100vh;
 }
 
 
@@ -421,16 +421,21 @@ footer a :hover {
     
     .titulo-mim {
         margin: 1em;
-    }
+        font-size: 2.5em;
+   }
     
     .lista-de-mim {
-        font-size: 200%;
         display: grid;
         grid-template-columns: 50% 50%;
     }
     
+    .lista-de-mim ul {
+        margin: 2em 2em 2em 3em;
+    }
+
     .lista-de-mim li {
-        margin: 2em;
+        font-size: 137%;
+
     }
     
     .img-codigo {
