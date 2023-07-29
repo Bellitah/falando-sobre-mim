@@ -287,52 +287,65 @@ h2 {
 
 
 footer {
-    padding: 4%;
+    padding: 4% 20% 6% 20%;
     background: #000;
     color: white;
     text-align: center;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 h1 {
     margin: 3%;
 }
 
-h3 {
-    margin: 1%;
+footer p {
+    margin: 1em;
 }
 
 .link {
     border-radius: 5px;
     background-color: #413121;
     padding: 1%;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 1s all;
+    font-size: 25px;
 }
 
 footer a {
     color: rgb(191, 190, 190);
 }
 
-footer a :hover {
-    margin-left: 40px;
-    opacity: 1;
-}
 
 
 
 
 @media (min-width: 600px) {
-    .foto-rosto {
-        width: 80%;
-        float: left;
-    }
 
     .container {
         display: grid;
         grid-template-columns: 50% 50%;
         color: white;
+        height: 70%;
     }
+
+
+
+
+
+
+
+    .foto-rosto {
+        margin: 3% 0 0 13%;
+        width: 60%;
+        float: left;
+    }
+    
+    .bella-frase {
+        margin: 0 8% 0 0;
+    }
+
 
     .inicio {
         font-size: 2em;
@@ -352,23 +365,19 @@ footer a :hover {
 
 
     .pais {
-        margin: 14% 0 0 0;
+        margin: 0;
     }
 
     .maps {
-        width: 400px;
-        left: 0;
-        margin: 14% 0 0 5%;
+        width: 300px;
+        height: 500px;
+        margin: 3% 0 0 5%;
     }
 
     .foto-1 {
-        left: 0;
-        margin: 0 0 0 10%;
-    }
-
-    .onde-nasci {
-        top: 140%;
-        font-size: 150%;
+        position: relative;
+        left: 15%;
+        width: 40%;
     }
 
 
@@ -449,11 +458,17 @@ footer a :hover {
 
 
 
+    footer {
+        padding: 5% 30%;
+    }
 
-
-    h1,
-    h2 {
+    h1 {
         margin: 0;
+        font-size: 2em;
+    }
+
+    .rodape a {
+        font-size: 30px;
     }
 
     .rodape {
